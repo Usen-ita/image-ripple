@@ -1,0 +1,31 @@
+body{
+    font-family: Amagro, montserrat;
+    background-color: white;
+
+}
+.btn{
+    background-color: white;
+    color: #121212;
+    padding: 2rem;
+    outline: none;
+    margin-right: 0.5rem;
+    border: 3px solid  #121212;
+    font-family: montserrat;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.buttonContainer{
+    display: flex;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    margin-left: 3rem;
+    position: absolute;
+    background-color: white;
+}
+h1{
+    padding-right:2rem;
+
+}
+
