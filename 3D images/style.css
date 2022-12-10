@@ -1,6 +1,6 @@
 body{
     font-family: Amagro, montserrat;
-    background-color: white;
+    background-color: #121212;
 
 }
 .btn{
@@ -22,7 +22,8 @@ main {
     padding-left: 1rem;
     margin-left: 3rem;
     position: absolute;
-    background-color: white;
+    background-color: #121212;
+    color: #fff;
 }
 h1{
     padding-right:2rem;

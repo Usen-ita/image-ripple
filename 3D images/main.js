@@ -1,12 +1,12 @@
 let images = [
   {
     name: "universal.jpg",
-    width: 1080,
+    width: 1280,
     height: 720,
   },
   {
     name: "yoga-lady.jpg",
-    width: 1000,
+    width: 1280,
     height: 720,
   },
 ];
@@ -30,7 +30,7 @@ let images = [
 
     layer2.width = image.width;
     layer2.height = image.height;
-    layer2.x = document.body.offsetWidth / 2 - layer2.width;
+    layer2.x = document.body.offsetWidth / 1.4 - layer2.width;
     layer2.y = 0;
 
     var displacementFilterTexture = PIXI.Sprite.fromImage(
@@ -39,7 +39,7 @@ let images = [
 
     displacementFilterTexture.width = image.width;
     displacementFilterTexture.height = image.height;
-    displacementFilterTexture.x = document.body.offsetWidth / 2 - displacementFilterTexture.width;
+    displacementFilterTexture.x = document.body.offsetWidth / 1.4 - displacementFilterTexture.width;
     displacementFilterTexture.y = 0;
 
     var mainContainer = new PIXI.Container();
@@ -110,12 +110,12 @@ let images = [
         layer2.texture = newTexture;
         layer2.width = image.width;
         layer2.height = image.height;
-        layer2.x = document.body.offsetWidth / 2 - layer2.width;
+        layer2.x = document.body.offsetWidth / 1.4 - layer2.width;
         layer2.y = 0;
 
         displacementFilterTexture.width = image.width;
         displacementFilterTexture.height = image.height;
-        displacementFilterTexture.x = document.body.offsetWidth / 2 - displacementFilterTexture.width;
+        displacementFilterTexture.x = document.body.offsetWidth / 1.4 - displacementFilterTexture.width;
         displacementFilterTexture.y = 0;
         console.log(image)
 
@@ -136,12 +136,12 @@ let images = [
         layer2.texture = newTexture;
         layer2.width = image.width;
         layer2.height = image.height;
-        layer2.x = document.body.offsetWidth / 2 - layer2.width;
+        layer2.x = document.body.offsetWidth / 1.4 - layer2.width;
         layer2.y = 0;
 
         displacementFilterTexture.width = image.width;
         displacementFilterTexture.height = image.height;
-        displacementFilterTexture.x = document.body.offsetWidth / 2 - displacementFilterTexture.width;
+        displacementFilterTexture.x = document.body.offsetWidth / 1.4 - displacementFilterTexture.width;
         displacementFilterTexture.y = 0;
         console.log(image)
 
