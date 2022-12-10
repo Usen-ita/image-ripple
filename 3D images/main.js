@@ -9,6 +9,16 @@ let images = [
     width: 1280,
     height: 720,
   },
+  {
+    name: "AbstractPlay1.png",
+    width: 480,
+    height: 854,
+  },
+  {
+    name: "darkPortraitMan.jpg",
+    width: 1280,
+    height: 720,
+  },
 ];
 
     /* Setup of the main image and the displacement filter */
